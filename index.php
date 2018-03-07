@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+    Autor: Luis Paulo Jr
+    Local: Senac Rio
+    Data: 06/03/2018
+    Finalidade: Página principal do projeto
+    Alteraçõs:
+        1. Correção da tag HTML ()
+        2. Adição de validação de usuário ()
+-->
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Site Pika</title>
+    </head>
+    <body>
+        <?php
+            $var1 = 10;
+            $var2 = 20;
+            $var3 = $var1 + $var2;
+            
+            echo $var3;
+        ?>
+    </body>
+</html>
